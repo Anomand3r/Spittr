@@ -7,9 +7,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-/**
- * Created by Alexandru on 11/8/2015.
- */
 @Component
 public class SpittleRepositoryImpl implements SpittleRepository {
     public List<Spittle> findSpittles(long max, int count) {
@@ -18,5 +15,9 @@ public class SpittleRepositoryImpl implements SpittleRepository {
             spittles.add(new Spittle("Spittle " + i, new Date()));
         }
         return spittles;
+    }
+
+    public Spittle findOne(long spittleId) {
+        return null;
     }
 }
