@@ -1,13 +1,10 @@
-package spittr;
+package spittr.model;
 
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 import java.util.Date;
 
-/**
- * Created by Alexandru on 11/8/2015.
- */
 public class Spittle {
     private final Long id;
     private final String message;

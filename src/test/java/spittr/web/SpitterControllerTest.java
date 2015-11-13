@@ -2,7 +2,7 @@ package spittr.web;
 
 import org.junit.Test;
 import org.springframework.test.web.servlet.MockMvc;
-import spittr.Spitter;
+import spittr.model.Spitter;
 import spittr.data.SpitterRepository;
 
 import static org.mockito.Mockito.*;

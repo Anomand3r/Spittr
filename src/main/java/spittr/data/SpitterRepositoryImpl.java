@@ -1,9 +1,8 @@
 package spittr.data;
 
 import org.springframework.stereotype.Component;
-import spittr.Spitter;
+import spittr.model.Spitter;
 
-@Component
 public class SpitterRepositoryImpl implements SpitterRepository {
     public Spitter save(Spitter spitter) {
         return null;

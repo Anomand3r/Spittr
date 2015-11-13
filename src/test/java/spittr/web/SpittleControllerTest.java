@@ -3,7 +3,7 @@ package spittr.web;
 import org.junit.Test;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.web.servlet.view.InternalResourceView;
-import spittr.Spittle;
+import spittr.model.Spittle;
 import spittr.data.SpittleRepository;
 
 import java.util.ArrayList;
